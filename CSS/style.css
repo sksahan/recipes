@@ -1,0 +1,313 @@
+* {
+
+    margin: 0px;
+  
+    padding: 0px;
+  
+    box-sizing: border-box;
+  
+  }
+  
+  .body-text {
+  
+    display: flex;
+  
+    font-family: "Montserrat", sans-serif;
+  
+    align-items: center;
+  
+    justify-content: center;
+  
+    margin-top: 250px;
+  
+  }
+  
+  nav {
+  
+    display: flex;
+  
+    justify-content: space-around;
+  
+    align-items: center;
+  
+    min-height: 8vh;
+  
+    background-color: rgb(30, 88, 15);
+  
+    font-family: "Montserrat", sans-serif;
+  
+  }
+  
+  .heading {
+  
+    color: white;
+  
+    text-transform: uppercase;
+  
+    letter-spacing: 5px;
+  
+    font-size: 20px;
+  
+  }
+  
+  .nav-links {
+  
+    display: flex;
+  
+    justify-content: space-around;
+  
+    width: 30%;
+  
+  }
+  
+  .nav-links li {
+  
+    list-style: none;
+  
+  }
+  
+  .nav-links a {
+  
+    color: white;
+  
+    text-decoration: none;
+  
+    letter-spacing: 3px;
+  
+    font-weight: bold;
+  
+    font-size: 14px;
+  
+    padding: 14px 16px;
+  
+  }
+  
+  .nav-links a:hover:not(.active) {
+  
+    background-color: lightseagreen;
+  
+  }
+  
+  .nav-links li a.active {
+  
+    background-color: #cf3030;
+  
+  }
+
+  h1 {
+    text-align: center;
+    text-shadow: 1px 1px;
+    color: rgb(24, 141, 180);
+  }
+
+  .center {
+    margin-top: 1%;
+    margin-left:3%;
+    margin-right: 3%;
+    border: 3px solid #73AD21;
+    padding-top: -30px;
+    padding-left: 5px;
+    height: 100px;
+  }
+
+  .wall{
+    height: 600px;
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 1%;
+  }
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  .about-us{
+    height: 100vh;
+    width: 100%;
+    padding: 90px 0;
+    background: #ddd;
+  }
+  .pic{
+    height: auto;
+    width:  302px;
+  }
+  .about{
+    width: 1130px;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .text{
+    width: 540px;
+  }
+  .text h2{
+    font-size: 90px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .text h5{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  span{
+    color: #4070f4;
+  }
+  .text p{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+  }
+  .data{
+    margin-top: 30px;
+  }
+
+  .form{
+    width:340px;height:440px;
+    background:#e6e6e6;
+    border-radius:8px;
+    box-shadow:0 0 160px -10px #000;
+    margin:calc(50vh - 220px) auto;
+    padding:20px 30px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+    position:relative;
+  }
+
+input{width:100%;padding:10px;
+  box-sizing:border-box;
+  background:none;
+  outline:none;
+  resize:none;
+  border:0;
+  font-family:'Montserrat',sans-serif;
+  transition:all .3s;
+  border-bottom:2px solid #bebed2
+}
+input:focus{
+  border-bottom:2px solid #78788c
+}
+p:before{
+  content:attr(type);
+  display:block;margin:28px 0 0;
+  font-size:14px;color:#186904
+}
+button{
+  float:right;
+  padding:8px 12px;
+  margin:8px 0 0;
+  font-family:'Montserrat',sans-serif;
+  border:2px solid #78788c;
+  background:0;color:#5a5a6e;
+  cursor:pointer;
+  transition:all .3s
+}
+button:hover{
+  background:#085202;
+  color:#fff}
+
+.cont{
+  color: #cf3030;
+}
+
+
+
+
+.float-container {
+  border: 3px solid #fff;
+  padding: 20px;
+}
+
+.float-child {
+  width: 25%;
+  float: left;
+  padding: 20px;
+  border: 0px solid rgb(9, 126, 19);
+}  
+
+.food1 {
+  background-color: #6f727a;
+  height: 400px;
+}
+
+.food2 {
+  background-color: #6f727a;
+  height: 400px;
+}
+
+.food3 {
+  background-color: #6f727a;
+  height: 400px;
+}
+
+.food4 {
+  background-color: #6f727a;
+  height: 400px;
+}
+
+.sambal{
+  height: 200px;
+  width: 80%;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.jack{
+  height: 200px;
+  width: 80%;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.roll{
+  height: 200px;
+  width: 80%;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.polos{
+  height: 200px;
+  width: 80%;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.fname{
+  color: #92e426;
+  text-align: center;
+  padding: 10px;
+}
+
+.food1:hover{
+  background:#ca3a01;
+  color:#fff}
+
+.food2:hover{
+  background:#ca3a01;
+  color:#fff}
+
+.food3:hover{
+  background:#ca3a01;
+  color:#fff}
+
+.food4:hover{
+  background:#ca3a01;
+  color:#fff}
+
+  .hcurry{
+    color: #070a02;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .jack1{
+    height: 400px;
+    width: 50%;
+  }
